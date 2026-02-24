@@ -3,6 +3,7 @@
   "short_name": "gentlementlegen/plugin-template@feat/320-workflow-artifact-migration",
   "description": "Ubiquibot plugin template repository with TypeScript support.",
   "ubiquity:listeners": [
+    "issue_comment.created",
     "pull_request_review_comment.created"
   ],
   "skipBotEvents": true,
